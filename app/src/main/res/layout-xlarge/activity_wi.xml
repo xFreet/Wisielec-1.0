@@ -8,7 +8,7 @@
     android:background="#FF5722">
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="150dp"
+        android:layout_height="200dp"
         android:src="@drawable/stan1"
         android:layout_gravity="center"
         android:id="@+id/stan"/>
@@ -36,47 +36,47 @@
         android:layout_gravity="center"
         android:gravity="center">
         <Button
-            style="@style/Button_Letter_Normal"
+            style="@style/Button_Letter_Xlarge"
             android:text="A"
             android:id="@+id/A"
             android:onClick="A" />
         <Button
-            style="@style/Button_Letter_Normal"
+            style="@style/Button_Letter_Xlarge"
             android:text="Ą"
             android:id="@+id/Ą"
             android:onClick="Ą" />
         <Button
-            style="@style/Button_Letter_Normal"
+            style="@style/Button_Letter_Xlarge"
             android:text="B"
             android:id="@+id/B"
             android:onClick="B" />
         <Button
-            style="@style/Button_Letter_Normal"
+            style="@style/Button_Letter_Xlarge"
             android:text="C"
             android:id="@+id/C"
             android:onClick="C" />
         <Button
-            style="@style/Button_Letter_Normal"
+            style="@style/Button_Letter_Xlarge"
             android:text="Ć"
             android:id="@+id/Ć"
             android:onClick="Ć" />
         <Button
-            style="@style/Button_Letter_Normal"
+            style="@style/Button_Letter_Xlarge"
             android:text="D"
             android:id="@+id/D"
             android:onClick="D" />
         <Button
-            style="@style/Button_Letter_Normal"
+            style="@style/Button_Letter_Xlarge"
             android:text="E"
             android:id="@+id/E"
             android:onClick="E" />
         <Button
-            style="@style/Button_Letter_Normal"
+            style="@style/Button_Letter_Xlarge"
             android:text="Ę"
             android:id="@+id/Ę"
             android:onClick="Ę" />
         <Button
-            style="@style/Button_Letter_Normal"
+            style="@style/Button_Letter_Xlarge"
             android:text="F"
             android:id="@+id/F"
             android:onClick="F" />
@@ -89,47 +89,47 @@
         android:layout_gravity="center"
         android:gravity="center">
         <Button
-            style="@style/Button_Letter_Normal"
+            style="@style/Button_Letter_Xlarge"
             android:text="G"
             android:id="@+id/G"
             android:onClick="G" />
         <Button
-            style="@style/Button_Letter_Normal"
+            style="@style/Button_Letter_Xlarge"
             android:text="H"
             android:id="@+id/H"
             android:onClick="H" />
         <Button
-            style="@style/Button_Letter_Normal"
+            style="@style/Button_Letter_Xlarge"
             android:text="I"
             android:id="@+id/I"
             android:onClick="I" />
         <Button
-            style="@style/Button_Letter_Normal"
+            style="@style/Button_Letter_Xlarge"
             android:text="J"
             android:id="@+id/J"
             android:onClick="J" />
         <Button
-            style="@style/Button_Letter_Normal"
+            style="@style/Button_Letter_Xlarge"
             android:text="K"
             android:id="@+id/K"
             android:onClick="K" />
         <Button
-            style="@style/Button_Letter_Normal"
+            style="@style/Button_Letter_Xlarge"
             android:text="L"
             android:id="@+id/L"
             android:onClick="L" />
         <Button
-            style="@style/Button_Letter_Normal"
+            style="@style/Button_Letter_Xlarge"
             android:text="Ł"
             android:id="@+id/Ł"
             android:onClick="Ł" />
         <Button
-            style="@style/Button_Letter_Normal"
+            style="@style/Button_Letter_Xlarge"
             android:text="M"
             android:id="@+id/M"
             android:onClick="M" />
         <Button
-            style="@style/Button_Letter_Normal"
+            style="@style/Button_Letter_Xlarge"
             android:text="N"
             android:id="@+id/N"
             android:onClick="N" />
@@ -142,47 +142,47 @@
         android:layout_gravity="center"
         android:gravity="center">
         <Button
-            style="@style/Button_Letter_Normal"
+            style="@style/Button_Letter_Xlarge"
             android:text="Ń"
             android:id="@+id/Ń"
             android:onClick="Ń" />
         <Button
-            style="@style/Button_Letter_Normal"
+            style="@style/Button_Letter_Xlarge"
             android:text="O"
             android:id="@+id/O"
             android:onClick="O" />
         <Button
-            style="@style/Button_Letter_Normal"
+            style="@style/Button_Letter_Xlarge"
             android:text="Ó"
             android:id="@+id/Ó"
             android:onClick="Ó" />
         <Button
-            style="@style/Button_Letter_Normal"
+            style="@style/Button_Letter_Xlarge"
             android:text="P"
             android:id="@+id/P"
             android:onClick="P" />
         <Button
-            style="@style/Button_Letter_Normal"
+            style="@style/Button_Letter_Xlarge"
             android:text="R"
             android:id="@+id/R"
             android:onClick="R" />
         <Button
-            style="@style/Button_Letter_Normal"
+            style="@style/Button_Letter_Xlarge"
             android:text="S"
             android:id="@+id/S"
             android:onClick="S" />
         <Button
-            style="@style/Button_Letter_Normal"
+            style="@style/Button_Letter_Xlarge"
             android:text="Ś"
             android:id="@+id/Ś"
             android:onClick="Ś" />
         <Button
-            style="@style/Button_Letter_Normal"
+            style="@style/Button_Letter_Xlarge"
             android:text="T"
             android:id="@+id/T"
             android:onClick="T" />
         <Button
-            style="@style/Button_Letter_Normal"
+            style="@style/Button_Letter_Xlarge"
             android:text="U"
             android:id="@+id/U"
             android:onClick="U" />
@@ -194,27 +194,27 @@
         android:layout_gravity="center"
         android:gravity="center">
         <Button
-            style="@style/Button_Letter_Normal"
+            style="@style/Button_Letter_Xlarge"
             android:text="W"
             android:id="@+id/W"
             android:onClick="W" />
         <Button
-            style="@style/Button_Letter_Normal"
+            style="@style/Button_Letter_Xlarge"
             android:text="Y"
             android:id="@+id/Y"
             android:onClick="Y" />
         <Button
-            style="@style/Button_Letter_Normal"
+            style="@style/Button_Letter_Xlarge"
             android:text="Z"
             android:id="@+id/Z"
             android:onClick="Z" />
         <Button
-            style="@style/Button_Letter_Normal"
+            style="@style/Button_Letter_Xlarge"
             android:text="Ź"
             android:id="@+id/Ź"
             android:onClick="Ź" />
         <Button
-            style="@style/Button_Letter_Normal"
+            style="@style/Button_Letter_Xlarge"
             android:text="Ż"
             android:id="@+id/Ż"
             android:onClick="Ż" />

@@ -6,7 +6,7 @@ package ga.jkowalczyk.wisielec;
 public class Random_S {
     public String Dawaj_Slowo()
     {
-        String slowo="snapdlaidiotow";
+        String slowo="snapdlaidiotów";
         return slowo;
     }
 }
