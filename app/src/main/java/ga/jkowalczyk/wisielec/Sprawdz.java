@@ -12,10 +12,10 @@ import android.widget.Toast;
  */
 public class Sprawdz {
     int stan=0;
-    public String Sprawdzam (String znak, String wyraz, String zakodowane,Context context,TextView tw,ImageView status)
+    public String Sprawdzam (String znak, String wyraz, String zakodowane,Context context,TextView tw,ImageView status_img,TextView status_text)
     {
         boolean wystapilo=false;
-
+    if(stan<5){
             char[] zakodowanywyraz2 = zakodowane.toCharArray(); //zamiana słowa (zamienionego na kreski) na tablice char
             for (int i = 0; i < wyraz.length(); i++) {
                 if (znak.charAt(0) == wyraz.charAt(i)) //sprawdzanie czy znak podany prze usera znajduje się w wyrazie
@@ -29,7 +29,8 @@ public class Sprawdz {
                 zakodowane = zakodowane + zakodowanywyraz2[i]; //uzupełnianie zakodowanego wyrazu za pomoca tablicy char
             }
             tw.setText("" + zakodowane);
-            if (zakodowane.equals(wyraz) == true) {
+            if (zakodowane.equals(wyraz) == true)
+            {
                 Toast.makeText(context, "Gratulacje udało ci się odgadnąć wyraz ;D", Toast.LENGTH_SHORT).show();
 
                 Log.e("Test33", "i am here");
@@ -38,8 +39,15 @@ public class Sprawdz {
         {
             wystapilo=false;
             stan=stan+1;
+            status_text.setText(""+stan);
             Log.e("Ilość nieudanych prób",""+stan);
         }
             return zakodowane;
+    }
+        else
+{
+    Toast.makeText(context, "Niestety zostałeś powieszony ;D", Toast.LENGTH_SHORT).show();
+    return wyraz;
+}
     }
 }

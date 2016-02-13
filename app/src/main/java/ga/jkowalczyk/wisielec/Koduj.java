@@ -1,5 +1,7 @@
 package ga.jkowalczyk.wisielec;
 
+import android.util.Log;
+
 /**
  * Created by jaaku on 12.02.2016.
  */
@@ -11,6 +13,7 @@ public class Koduj {
         {
             zakodowane=zakodowane+"-";
         }
+        Log.e("zakodowane", zakodowane);
         return zakodowane;
     }
 }
