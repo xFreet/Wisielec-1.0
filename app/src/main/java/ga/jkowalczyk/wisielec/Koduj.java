@@ -6,9 +6,10 @@ import android.util.Log;
  * Created by jaaku on 12.02.2016.
  */
 public class Koduj {
-    String zakodowane="";
+
     public String koduj_slowo (String slowo)
     {
+        String zakodowane="";
         for(int i=0; i<slowo.length();i++)
         {
             zakodowane=zakodowane+"-";

@@ -8,13 +8,20 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".WiActivity">
+        <activity
+            android:name=".WiActivity"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".About" android:screenOrientation="portrait"></activity>
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="e6f73ab404c06e0315fa88e4fdfad00ed7102e7c" />
     </application>
 
+    <uses-permission android:name="android.permission.INTERNET" />
 </manifest>
