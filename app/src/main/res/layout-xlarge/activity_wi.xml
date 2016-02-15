@@ -9,7 +9,7 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="280dp"
-        android:src="@drawable/stan1"
+        android:src="@drawable/stan7"
         android:layout_gravity="center"
         android:id="@+id/stan"/>
 <TextView
@@ -224,7 +224,7 @@
         android:layout_width="match_parent"
         android:layout_height="80dp"
         android:text="Nowy wyraz"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="20dp"
         android:layout_marginBottom="10dp"
         android:layout_marginRight="25dp"
         android:layout_marginLeft="25dp"

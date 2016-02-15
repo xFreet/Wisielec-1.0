@@ -23,7 +23,6 @@ public class WiActivity extends AppCompatActivity {
     ImageView stan_img;
     Context context;
     Sprawdz sprawdz;
-    Blokuj blokuj;
     Random_S random_s;
     Koduj koduj;
     Button buttona,buttoną,buttonb,buttonc,buttonć,buttond,buttone,
@@ -38,12 +37,10 @@ public class WiActivity extends AppCompatActivity {
         setContentView(R.layout.activity_wi);
         slowo= (TextView)findViewById(R.id.zakodowany_wyraz);
         stan_img =(ImageView)findViewById(R.id.stan);
-        stan_text =(TextView)findViewById(R.id.stan_text);
         Log.e("start","1");
         koduj = new Koduj();
         random_s = new Random_S();
         sprawdz = new Sprawdz();
-        blokuj = new Blokuj();
         wyraz=random_s.Dawaj_Slowo();
         zakodowanywyraz=koduj.koduj_slowo(wyraz);
         slowo.setText("" + zakodowanywyraz);
@@ -89,193 +86,193 @@ public class WiActivity extends AppCompatActivity {
     }
 
     public void A(View view) {
-        zakodowanywyraz=sprawdz.Sprawdzam("a",wyraz,zakodowanywyraz,context,slowo, stan_img,stan_text);
+        zakodowanywyraz=sprawdz.Sprawdzam("a",wyraz,zakodowanywyraz,context,slowo, stan_img);
         buttona.setClickable(false);
         buttona.setBackgroundColor(Color.GRAY);
     }
 
     public void Ą(View view) {
-        zakodowanywyraz=sprawdz.Sprawdzam("ą",wyraz,zakodowanywyraz,context,slowo, stan_img,stan_text);
+        zakodowanywyraz=sprawdz.Sprawdzam("ą",wyraz,zakodowanywyraz,context,slowo, stan_img);
         buttoną.setClickable(false);
         buttoną.setBackgroundColor(Color.GRAY);
     }
 
     public void B(View view) {
-        zakodowanywyraz=sprawdz.Sprawdzam("b",wyraz,zakodowanywyraz,context,slowo, stan_img,stan_text);
+        zakodowanywyraz=sprawdz.Sprawdzam("b",wyraz,zakodowanywyraz,context,slowo, stan_img);
         buttonb.setClickable(false);
         buttonb.setBackgroundColor(Color.GRAY);
     }
 
     public void C(View view) {
-        zakodowanywyraz=sprawdz.Sprawdzam("c",wyraz,zakodowanywyraz,context,slowo, stan_img,stan_text);
+        zakodowanywyraz=sprawdz.Sprawdzam("c",wyraz,zakodowanywyraz,context,slowo, stan_img);
         buttonc.setClickable(false);
         buttonc.setBackgroundColor(Color.GRAY);
     }
 
     public void Ć(View view) {
-        zakodowanywyraz=sprawdz.Sprawdzam("ć",wyraz,zakodowanywyraz,context,slowo, stan_img,stan_text);
+        zakodowanywyraz=sprawdz.Sprawdzam("ć",wyraz,zakodowanywyraz,context,slowo, stan_img);
         buttonć.setClickable(false);
         buttonć.setBackgroundColor(Color.GRAY);
     }
 
     public void D(View view) {
-        zakodowanywyraz= sprawdz.Sprawdzam("d",wyraz,zakodowanywyraz,context,slowo, stan_img,stan_text);
+        zakodowanywyraz= sprawdz.Sprawdzam("d",wyraz,zakodowanywyraz,context,slowo, stan_img);
         buttond.setClickable(false);
         buttond.setBackgroundColor(Color.GRAY);
     }
 
     public void E(View view) {
-        zakodowanywyraz=sprawdz.Sprawdzam("e",wyraz,zakodowanywyraz,context,slowo, stan_img,stan_text);
+        zakodowanywyraz=sprawdz.Sprawdzam("e",wyraz,zakodowanywyraz,context,slowo, stan_img);
         buttone.setClickable(false);
         buttone.setBackgroundColor(Color.GRAY);
     }
 
     public void Ę(View view) {
-        zakodowanywyraz=sprawdz.Sprawdzam("ę",wyraz,zakodowanywyraz,context,slowo, stan_img,stan_text);
+        zakodowanywyraz=sprawdz.Sprawdzam("ę",wyraz,zakodowanywyraz,context,slowo, stan_img);
         buttonę.setClickable(false);
         buttonę.setBackgroundColor(Color.GRAY);
     }
 
     public void F(View view) {
-        zakodowanywyraz=sprawdz.Sprawdzam("f",wyraz,zakodowanywyraz,context,slowo, stan_img,stan_text);
+        zakodowanywyraz=sprawdz.Sprawdzam("f",wyraz,zakodowanywyraz,context,slowo, stan_img);
         buttonf.setClickable(false);
         buttonf.setBackgroundColor(Color.GRAY);
     }
 
     public void G(View view) {
-        zakodowanywyraz=sprawdz.Sprawdzam("g",wyraz,zakodowanywyraz,context,slowo, stan_img,stan_text);
+        zakodowanywyraz=sprawdz.Sprawdzam("g",wyraz,zakodowanywyraz,context,slowo, stan_img);
         buttong.setClickable(false);
         buttong.setBackgroundColor(Color.GRAY);
     }
 
     public void H(View view) {
-        zakodowanywyraz=sprawdz.Sprawdzam("h",wyraz,zakodowanywyraz,context,slowo, stan_img,stan_text);
+        zakodowanywyraz=sprawdz.Sprawdzam("h",wyraz,zakodowanywyraz,context,slowo, stan_img);
         buttonh.setClickable(false);
         buttonh.setBackgroundColor(Color.GRAY);
     }
 
     public void I(View view) {
-        zakodowanywyraz=sprawdz.Sprawdzam("i",wyraz,zakodowanywyraz,context,slowo, stan_img,stan_text);
+        zakodowanywyraz=sprawdz.Sprawdzam("i",wyraz,zakodowanywyraz,context,slowo, stan_img);
         buttoni.setClickable(false);
         buttoni.setBackgroundColor(Color.GRAY);
     }
 
     public void J(View view) {
-        zakodowanywyraz=sprawdz.Sprawdzam("j",wyraz,zakodowanywyraz,context,slowo, stan_img,stan_text);
+        zakodowanywyraz=sprawdz.Sprawdzam("j",wyraz,zakodowanywyraz,context,slowo, stan_img);
         buttonj.setClickable(false);
         buttonj.setBackgroundColor(Color.GRAY);
     }
 
     public void K(View view) {
-        zakodowanywyraz= sprawdz.Sprawdzam("k",wyraz,zakodowanywyraz,context,slowo, stan_img,stan_text);
+        zakodowanywyraz= sprawdz.Sprawdzam("k",wyraz,zakodowanywyraz,context,slowo, stan_img);
         buttonk.setClickable(false);
         buttonk.setBackgroundColor(Color.GRAY);
     }
 
     public void L(View view) {
-        zakodowanywyraz=sprawdz.Sprawdzam("l",wyraz,zakodowanywyraz,context,slowo, stan_img,stan_text);
+        zakodowanywyraz=sprawdz.Sprawdzam("l",wyraz,zakodowanywyraz,context,slowo, stan_img);
         buttonl.setClickable(false);
         buttonl.setBackgroundColor(Color.GRAY);
     }
 
     public void Ł(View view) {
-        zakodowanywyraz=sprawdz.Sprawdzam("ł",wyraz,zakodowanywyraz,context,slowo, stan_img,stan_text);
+        zakodowanywyraz=sprawdz.Sprawdzam("ł",wyraz,zakodowanywyraz,context,slowo, stan_img);
         buttonł.setClickable(false);
         buttonł.setBackgroundColor(Color.GRAY);
     }
 
     public void M(View view) {
-        zakodowanywyraz=sprawdz.Sprawdzam("m",wyraz,zakodowanywyraz,context,slowo, stan_img,stan_text);;
+        zakodowanywyraz=sprawdz.Sprawdzam("m",wyraz,zakodowanywyraz,context,slowo, stan_img);
         buttonm.setClickable(false);
         buttonm.setBackgroundColor(Color.GRAY);
     }
 
     public void N(View view) {
-        zakodowanywyraz=sprawdz.Sprawdzam("n",wyraz,zakodowanywyraz,context,slowo, stan_img,stan_text);
+        zakodowanywyraz=sprawdz.Sprawdzam("n",wyraz,zakodowanywyraz,context,slowo, stan_img);
         buttonn.setClickable(false);
         buttonn.setBackgroundColor(Color.GRAY);
     }
 
     public void Ń(View view) {
-        zakodowanywyraz=sprawdz.Sprawdzam("ń",wyraz,zakodowanywyraz,context,slowo, stan_img,stan_text);
+        zakodowanywyraz=sprawdz.Sprawdzam("ń",wyraz,zakodowanywyraz,context,slowo, stan_img);
         buttonń.setClickable(false);
         buttonń.setBackgroundColor(Color.GRAY);
     }
 
     public void O(View view) {
-        zakodowanywyraz=sprawdz.Sprawdzam("o",wyraz,zakodowanywyraz,context,slowo, stan_img,stan_text);
+        zakodowanywyraz=sprawdz.Sprawdzam("o",wyraz,zakodowanywyraz,context,slowo, stan_img);
         buttono.setClickable(false);
         buttono.setBackgroundColor(Color.GRAY);
     }
 
     public void Ó(View view) {
-        zakodowanywyraz=sprawdz.Sprawdzam("ó",wyraz,zakodowanywyraz,context,slowo, stan_img,stan_text);
+        zakodowanywyraz=sprawdz.Sprawdzam("ó",wyraz,zakodowanywyraz,context,slowo, stan_img);
         buttonó.setClickable(false);
         buttonó.setBackgroundColor(Color.GRAY);
     }
 
     public void P(View view) {
-        zakodowanywyraz=sprawdz.Sprawdzam("p",wyraz,zakodowanywyraz,context,slowo, stan_img,stan_text);
+        zakodowanywyraz=sprawdz.Sprawdzam("p",wyraz,zakodowanywyraz,context,slowo, stan_img);
         buttonp.setClickable(false);
         buttonp.setBackgroundColor(Color.GRAY);
     }
 
     public void R(View view) {
-        zakodowanywyraz=sprawdz.Sprawdzam("r",wyraz,zakodowanywyraz,context,slowo, stan_img,stan_text);
+        zakodowanywyraz=sprawdz.Sprawdzam("r",wyraz,zakodowanywyraz,context,slowo, stan_img);
         buttonr.setClickable(false);
         buttonr.setBackgroundColor(Color.GRAY);
     }
 
     public void S(View view) {
-        zakodowanywyraz=sprawdz.Sprawdzam("s",wyraz,zakodowanywyraz,context,slowo, stan_img,stan_text);
+        zakodowanywyraz=sprawdz.Sprawdzam("s",wyraz,zakodowanywyraz,context,slowo, stan_img);
         buttons.setClickable(false);
         buttons.setBackgroundColor(Color.GRAY);
     }
 
     public void Ś(View view) {
-        zakodowanywyraz=sprawdz.Sprawdzam("ś",wyraz,zakodowanywyraz,context,slowo, stan_img,stan_text);
+        zakodowanywyraz=sprawdz.Sprawdzam("ś",wyraz,zakodowanywyraz,context,slowo, stan_img);
         buttonś.setClickable(false);
         buttonś.setBackgroundColor(Color.GRAY);
     }
 
     public void T(View view) {
-        zakodowanywyraz=sprawdz.Sprawdzam("t",wyraz,zakodowanywyraz,context,slowo, stan_img,stan_text);
+        zakodowanywyraz=sprawdz.Sprawdzam("t",wyraz,zakodowanywyraz,context,slowo, stan_img);
         buttont.setClickable(false);
         buttont.setBackgroundColor(Color.GRAY);
     }
 
     public void U(View view) {
-        zakodowanywyraz=sprawdz.Sprawdzam("u",wyraz,zakodowanywyraz,context,slowo, stan_img,stan_text);
-        buttonu.setClickable(false);;
+        zakodowanywyraz=sprawdz.Sprawdzam("u",wyraz,zakodowanywyraz,context,slowo, stan_img);
+        buttonu.setClickable(false);
         buttonu.setBackgroundColor(Color.GRAY);
     }
 
     public void W(View view) {
-        zakodowanywyraz=sprawdz.Sprawdzam("w",wyraz,zakodowanywyraz,context,slowo, stan_img,stan_text);
+        zakodowanywyraz=sprawdz.Sprawdzam("w",wyraz,zakodowanywyraz,context,slowo, stan_img);
         buttonw.setClickable(false);
         buttonw.setBackgroundColor(Color.GRAY);
     }
 
     public void Y(View view) {
-        zakodowanywyraz=sprawdz.Sprawdzam("y",wyraz,zakodowanywyraz,context,slowo, stan_img,stan_text);
+        zakodowanywyraz=sprawdz.Sprawdzam("y",wyraz,zakodowanywyraz,context,slowo, stan_img);
         buttony.setClickable(false);
         buttony.setBackgroundColor(Color.GRAY);
     }
 
     public void Z(View view) {
-        zakodowanywyraz=sprawdz.Sprawdzam("z",wyraz,zakodowanywyraz,context,slowo, stan_img,stan_text);
+        zakodowanywyraz=sprawdz.Sprawdzam("z",wyraz,zakodowanywyraz,context,slowo, stan_img);
         buttonz.setClickable(false);
         buttonz.setBackgroundColor(Color.GRAY);
     }
 
     public void Ź(View view) {
-        zakodowanywyraz=sprawdz.Sprawdzam("ź",wyraz,zakodowanywyraz,context,slowo, stan_img,stan_text);
+        zakodowanywyraz=sprawdz.Sprawdzam("ź",wyraz,zakodowanywyraz,context,slowo, stan_img);
         buttonź.setClickable(false);
         buttonź.setBackgroundColor(Color.GRAY);
     }
 
     public void Ż(View view) {
-        zakodowanywyraz=sprawdz.Sprawdzam("ż",wyraz,zakodowanywyraz,context,slowo, stan_img,stan_text);
+        zakodowanywyraz=sprawdz.Sprawdzam("ż",wyraz,zakodowanywyraz,context,slowo, stan_img);
         buttonż.setClickable(false);
         buttonż.setBackgroundColor(Color.GRAY);
     }
@@ -285,9 +282,19 @@ public class WiActivity extends AppCompatActivity {
         zakodowanywyraz=koduj.koduj_slowo(wyraz);
         sprawdz.Status(0);
         sprawdz.Status2(false);
-        stan_img.setImageResource(R.drawable.stan1);
+        stan_img.setImageResource(R.drawable.stan7);
         slowo.setText("" + koduj.koduj_slowo(wyraz));
+        odblock();
 
+
+    }
+
+    public void info(MenuItem item) {
+        Intent intent= new Intent(context,About.class);
+        startActivity(intent);
+    }
+    public void odblock ()
+    {
         buttona.setClickable(true);
         buttona.setBackgroundColor(Color.WHITE);
         buttoną.setClickable(true);
@@ -352,11 +359,5 @@ public class WiActivity extends AppCompatActivity {
         buttonż.setBackgroundColor(Color.WHITE);
         buttonź.setClickable(true);
         buttonź.setBackgroundColor(Color.WHITE);
-
-    }
-
-    public void info(MenuItem item) {
-        Intent intent= new Intent(context,About.class);
-        startActivity(intent);
     }
 }

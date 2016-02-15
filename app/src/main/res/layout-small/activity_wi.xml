@@ -9,7 +9,7 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="125dp"
-        android:src="@drawable/stan1"
+        android:src="@drawable/stan7"
         android:layout_gravity="center"
         android:id="@+id/stan"/>
 <TextView

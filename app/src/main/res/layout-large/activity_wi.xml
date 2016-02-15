@@ -7,27 +7,28 @@
     tools:context="ga.jkowalczyk.wisielec.WiActivity"
     android:background="#d30a0a">
     <ImageView
+        android:layout_marginTop="20dp"
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:src="@drawable/stan1"
+        android:src="@drawable/stan7"
         android:layout_gravity="center"
         android:id="@+id/stan"/>
 <TextView
     android:layout_width="match_parent"
-    android:layout_height="50dp"
+    android:layout_height="60dp"
     android:text="Wyraz"
     android:layout_gravity="center"
     android:gravity="center"
-    android:textSize="40dp"
+    android:textSize="50dp"
     android:textStyle="bold"
     android:textColor="#FFFFFF" />
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="60dp"
         android:text="-------"
         android:layout_gravity="center"
         android:gravity="center"
-        android:textSize="40dp"
+        android:textSize="50dp"
         android:id="@+id/zakodowany_wyraz"
         android:textColor="#000000" />
     <LinearLayout
@@ -224,7 +225,7 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:text="Nowy wyraz"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="20dp"
         android:layout_marginBottom="10dp"
         android:layout_marginRight="25dp"
         android:layout_marginLeft="25dp"

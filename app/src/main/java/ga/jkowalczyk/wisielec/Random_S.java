@@ -15,11 +15,14 @@ public class Random_S {
                 "szklanka","artykuł","strona","dziennikarz","sala","obecność","wybory","ekspert",
                 "problematyka","zagadnienia","kierunek","podsumowanie","dowody","rzecznik","dolar",
                 "rozmowa", "handel", "interes", "kredyt", "petruwszedzie","kanapa","sufit", "korytarz",
-        "dym","świadek","pamięć","dzwonek"};
+                "dym","świadek","pamięć","dzwonek","prezydent","koszula","wzrok","ziemia","kamery",
+                "tajemnica","ubranie","biały","hazard","aparat","wino","miejsce","pogłoski","pytanie",
+                "rzeczownik", "informacje","plotka","ruch","automat","pieść","straż","jutro","student"};
+
         Random generator = new Random();
-        int i = generator.nextInt(42) + 1;
+        int i = generator.nextInt(65) + 1;
         String slowo = slowa1[i];
-        Log.e("slowo",":"+slowo);
+        Log.e("slowo",":"+slowo+":"+slowa1.length);
         return slowo;
     }
 }

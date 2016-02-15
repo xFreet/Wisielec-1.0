@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="80"
-        android:text="Wisielec 1.0"
+        android:text="Wisielec 1.1"
         android:textSize="55dp"
         android:gravity="center"
         android:textColor="@android:color/black"
